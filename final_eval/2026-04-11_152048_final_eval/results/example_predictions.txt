@@ -1,0 +1,24 @@
+Example predictions using saved final model
+Note: decision scores are not probabilities; higher means more confident.
+
+Input: itching skin rash redness
+Top prediction: Chicken pox
+Top 3:
+  1) Chicken pox (score=-0.324)
+  2) Impetigo (score=-0.492)
+  3) Acne (score=-0.668)
+
+Input: stomach pain nausea vomiting
+Top prediction: Typhoid
+Top 3:
+  1) Typhoid (score=0.416)
+  2) Jaundice (score=-0.287)
+  3) Malaria (score=-0.589)
+
+Input: fever sore throat headache
+Top prediction: allergy
+Top 3:
+  1) allergy (score=0.313)
+  2) gastroesophageal reflux disease (score=-0.310)
+  3) Chicken pox (score=-0.658)
+

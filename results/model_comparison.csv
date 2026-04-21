@@ -1,0 +1,3 @@
+model,variant,evaluation_setup,accuracy,precision_weighted,recall_weighted,f1_weighted,best_params,source_run,notes
+LinearSVC,tuned,Stratified 5-Fold CV,,,,0.9806039016397076,"{""clf__C"": 10}",C:\Users\Yusuf\Documents\YEAR 3 FYP\fyp\artifacts\runs\2026-04-11_152038_tuning,Best classical model
+DistilBERT,4 epochs,Stratified train/validation split,0.8791666666666667,0.9033219639837288,0.8791666666666667,0.8636741435916684,"{""model_name"": ""distilbert-base-uncased"", ""num_epochs"": 4}",C:\Users\Yusuf\Documents\YEAR 3 FYP\fyp\artifacts\transformer\2026-04-11_152139_distilbert,Best transformer run

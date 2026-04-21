@@ -1,0 +1,30 @@
+{
+  "dataset_file": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\data\\Symptom2Disease.csv",
+  "seed": 42,
+  "cv": {
+    "type": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2
+  },
+  "final_model": {
+    "name": "LinearSVC",
+    "params": {
+      "C": 10
+    }
+  },
+  "outputs": {
+    "metrics_summary_csv": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\artifacts\\final_eval\\2026-04-11_151644_final_eval\\results\\metrics_summary.csv",
+    "per_class_report_csv": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\artifacts\\final_eval\\2026-04-11_151644_final_eval\\results\\per_class_report.csv",
+    "confusion_matrix_png": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\artifacts\\final_eval\\2026-04-11_151644_final_eval\\plots\\confusion_matrix.png",
+    "learning_curve_png": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\artifacts\\final_eval\\2026-04-11_151644_final_eval\\plots\\learning_curve.png",
+    "example_predictions_txt": "C:\\Users\\Yusuf\\Documents\\YEAR 3 FYP\\fyp\\artifacts\\final_eval\\2026-04-11_151644_final_eval\\results\\example_predictions.txt"
+  }
+}

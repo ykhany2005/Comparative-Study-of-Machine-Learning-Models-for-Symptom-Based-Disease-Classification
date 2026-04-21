@@ -1,0 +1,5 @@
+{
+  "seed": 42,
+  "cv": 5,
+  "dataset": "data\\Symptom2Disease.csv"
+}

@@ -1,0 +1,2 @@
+model,baseline_f1w_mean,tuned_best_f1_weighted,best_params,tuning_run_folder,improvement
+LinearSVC,0.978928999887406,0.9806039016397076,"{""clf__C"": 10}",C:\Users\Yusuf\Documents\YEAR 3 FYP\fyp\artifacts\runs\2026-02-25_2229_tuning,0.0016749017523015608
