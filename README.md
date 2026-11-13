@@ -1,6 +1,4 @@
-Here’s your **full README with the correct run order added and cleaned up** — ready to copy/paste 
 
----
 
 # AI Symptom Checker (Final Year Project)
 
