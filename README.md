@@ -1,4 +1,4 @@
-Here’s your **full README with the correct run order added and cleaned up** — ready to copy/paste 👇
+Here’s your **full README with the correct run order added and cleaned up** — ready to copy/paste 
 
 ---
 
